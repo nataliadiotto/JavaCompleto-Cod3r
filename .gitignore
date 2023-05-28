@@ -1,29 +1,28 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Compiled class files
+*.class
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Package directories
+*/target/
+*/bin/
+*/out/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Build files
+build.xml
+pom.xml
+gradle.xml
+target/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Logs
+*.log
 
-### VS Code ###
-.vscode/
+# Other generated files
+*.swp
+*.bak
 
-### Mac OS ###
-.DS_Store
