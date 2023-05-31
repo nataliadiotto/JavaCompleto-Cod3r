@@ -2,6 +2,11 @@ package oo.heranca.desafio1;
 
 public interface Luxo {
 
-    void ligarAr();
-    void desligarAr();
+    public void ligarAr();
+    abstract void desligarAr();
+
+    //método opcional usando o "default"
+    default int velocidadeDoAr(){
+        return 1;
+    }
 }

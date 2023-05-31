@@ -24,6 +24,7 @@ public class CarroTeste {
         ferrari.ligarAr();
         ferrari.desligarAr();
 
+        System.out.println(ferrari.velocidadeDoAr());
 
         System.out.println();
         System.out.println("Velocidade atual da Ferrari: " + ferrari.velocidadeAtual + "km/h");

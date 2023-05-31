@@ -1,6 +1,6 @@
 package oo.polimorfismo;
 
-public class Comida {
+public abstract class Comida {
     double peso;
 
     public Comida(double peso){
