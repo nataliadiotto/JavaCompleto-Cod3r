@@ -9,15 +9,25 @@ public class Foreach {
         List<String> approved = Arrays.asList("Ana", "Bia", "Lia", "Gui");
 
         System.out.println("Traditional form:");
-        for (String nome: approved) {
-            System.out.println(nome);
+        for (String name: approved) {
+            System.out.println(name);
         }
 
         System.out.println("\nLambda #01:");
-        approved.forEach(nome -> System.out.println(nome + ".")); //passar expressão lambda como foreach
+        approved.forEach(name -> System.out.println(name + ".")); //passar expressão lambda como foreach
 
         System.out.println("\nMethod Reference:");
         approved.forEach(System.out::println); //passando uma referência (end. de memória) para a função
 
+        System.out.println("\nLambda #02:");
+        approved.forEach(name -> myPrint(name + "."));
+
+        System.out.println("\nPersonalized Method Reference:");
+        approved.forEach(Foreach::myPrint);
+
+    }
+
+    static void myPrint(String name) {
+        System.out.println("Hi! My name is " + name);
     }
 }
