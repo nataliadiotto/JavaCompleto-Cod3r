@@ -7,6 +7,9 @@ public class CalculoTeste2 {
         Calculo calculo = (x, y) -> {return x + y; };
         System.out.println(calculo.executar(2, 3));
 
+        calculo = (x, y) -> x * y;
+        System.out.println(calculo.executar(2, 3));
+
     }
 
 }
