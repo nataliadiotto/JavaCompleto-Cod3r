@@ -10,6 +10,7 @@ public class Cause {
                 System.out.println(e.getCause().getMessage());
             }
         }
+        methodA(null);
     }
 
     static void methodA(Student student) {
