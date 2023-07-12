@@ -22,7 +22,7 @@ public class PrintingObjects {
             System.out.println(iterator.next());
         }
 
-        System.out.println("\nUsing Stream:);
+        System.out.println("\nUsing Stream:");
         Stream<String> stream = approved.stream();
         stream.forEach(System.out::println); //Laço interno!!!
     }
