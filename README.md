@@ -1,4 +1,4 @@
-# ♨️💻 Java Completo Progress Tracker Repository 💻☕️
+# ♨️💻 Java Completo Progress Tracker Repository 💻♨️
 
 Welcome to my Java Completo Progress Tracker Repository! This repository is dedicated to tracking my progress in the Java Completo course. Here, you will find a comprehensive overview of my learning journey as I explore the various concepts and topics covered in the course.
 
