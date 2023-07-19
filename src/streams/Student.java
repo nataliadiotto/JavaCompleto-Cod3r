@@ -15,4 +15,8 @@ public class Student {
         this.grade = grade;
         this.goodBehavior = goodBehavior;
     }
+
+    public String toString(){
+        return name + "'s grade is " + grade;
+    }
 }
