@@ -7,10 +7,12 @@ public class AverageTest {
         avrg1.sum(8.3);
         avrg1.sum(6.7);
 
-        Average avrg2 = new Average().sum(8.3).sum(6.7);
+        Average avrg2 = new Average().sum(7.9).sum(6.6);
 
         System.out.println(avrg1.getValue());
         System.out.println(avrg2.getValue());
+
+        System.out.println(Average.combine(avrg1, avrg2).getValue());
     }
 
 
