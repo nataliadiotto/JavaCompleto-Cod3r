@@ -24,4 +24,4 @@ While this repository primarily serves as a personal progress tracker, I welcome
 ## Stay Connected
 If you're also enrolled in the Java Completo course or have an interest in Java programming, I invite you to join me on this learning journey. You can follow along with my progress by starring this repository or watching for updates. Let's learn, grow, and code together!
 
-Happy coding!
+Happy coding everyone!
