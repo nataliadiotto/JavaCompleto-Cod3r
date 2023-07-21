@@ -10,8 +10,8 @@ The repository is organized into different modules, each representing a specific
 
 - Code examples and implementations;
 - Exercise solutions;
-- Project files
-- Notes and summaries
+- Project files;
+- Notes and summaries.
 
 Feel free to explore the different modules and dive into the code and resources provided. You can navigate through the repository to find specific topics or modules that interest you the most.
 
