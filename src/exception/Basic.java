@@ -18,8 +18,6 @@ public class Basic {
         }
 
         System.out.println("The end");
-
-        //
     }
 
     public static void printStudent(Student student){

@@ -8,7 +8,7 @@ Java Completo is an in-depth course that covers the fundamentals and advanced co
 ## Repository Structure
 The repository is organized into different modules, each representing a specific topic or module covered in the course. Inside each module, you will find the following:
 
-- Code examples and implementations
+- Code examples and implementations;
 - Exercise solutions
 - Project files
 - Notes and summaries
