@@ -1,4 +1,4 @@
-package exception;
+package exception.personalizedA;
 
 import exception.Student;
 

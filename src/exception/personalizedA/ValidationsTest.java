@@ -1,4 +1,6 @@
-package exception;
+package exception.personalizedA;
+
+import exception.Student;
 
 public class ValidationsTest {
     public static void main(String[] args) {

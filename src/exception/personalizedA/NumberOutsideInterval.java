@@ -1,4 +1,4 @@
-package exception;
+package exception.personalizedA;
 
 public class NumberOutsideInterval extends RuntimeException {
 
