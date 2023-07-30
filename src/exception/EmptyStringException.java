@@ -9,7 +9,7 @@ public class EmptyStringException extends RuntimeException {
     }
 
     public String getMessage() {
-        return String.format("The attribute %s is empty",
+        return String.format("The attribute '%s' is empty",
                 attributeName);
     }
 
